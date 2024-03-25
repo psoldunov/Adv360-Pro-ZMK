@@ -1,4 +1,4 @@
-# Kinesis Advantage 360 Pro ZMK Config
+# Philipp's Kinesis Advantage 360 Pro ZMK Config
 
 ## Modifying the keymap
 
