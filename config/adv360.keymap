@@ -77,34 +77,23 @@
             >;
         };
 
-        layer_4 {
+        HYPR_MOD3 {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &none                                  &none  &kp N6         &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&none      &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                  &none  &kp LC(LA(Y))  &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&none      &kp A      &kp S   &kp D   &kp F   &kp G   &none  &none  &none      &none  &none  &none  &kp H          &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&none      &kp Z      &kp X   &kp C   &kp V   &kp B                 &none      &none                &kp N          &kp M   &kp COMMA  &kp DOT   &kp FSLH  &none
-&none      &kp GRAVE  &none   &none   &none           &none  &none  &none      &none  &none  &none                 &none   &none      &kp LBKT  &kp RBKT  &none
+&kp LC(LA(EQUAL))  &kp LC(LA(N1))     &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &none                                  &none  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))    &kp LC(LA(N0))    &kp LC(LA(MINUS))
+&none              &kp LC(LA(Q))      &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))   &none                                  &none  &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))     &kp LC(LA(P))     &kp LC(LA(BSLH))
+&none              &kp LC(LA(A))      &kp LC(LA(S))   &kp LC(LA(D))   &kp LC(LA(F))   &kp LC(LA(G))   &none  &none  &none      &none  &none  &none  &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))     &kp LC(LA(SEMI))  &kp LC(LA(SQT))
+&none              &kp LC(LA(Z))      &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))                 &none      &none                &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))   &kp LC(LA(FSLH))  &none
+&none              &kp LC(LA(GRAVE))  &none           &none           &none                           &none  &none  &none      &none  &none  &none                  &none           &none              &kp LC(LA(LBKT))  &kp LC(LA(RBKT))  &none
             >;
         };
-
-        layer_5 {
-            bindings = <
-&kp LC(LA(EQUAL))  &kp LC(LA(N1))     &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &none                                  &none  &kp LC(LA(N6))         &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))    &kp LC(LA(N0))    &kp LC(LA(MINUS))
-&none      &kp LC(LA(Q))      &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))   &none                                  &none  &kp LC(LA(Y))  &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))     &kp LC(LA(P))     &kp LC(LA(BSLH))
-&none      &kp LC(LA(A))      &kp LC(LA(S))   &kp LC(LA(D))   &kp LC(LA(F))   &kp LC(LA(G))   &none  &none  &none      &none  &none  &none  &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))     &kp LC(LA(SEMI))  &kp LC(LA(SQT))
-&none      &kp LC(LA(Z))      &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))                 &none      &none                &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))   &kp LC(LA(FSLH))  &none
-&none      &kp LC(LA(GRAVE))  &none   &none   &none           &none  &none  &none      &none  &none  &none                 &none   &none      &kp LC(LA(LBKT))  &kp LC(LA(RBKT))  &none
-            >;
-        };
-
 
         layer_6 {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &none                                  &none  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&none      &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                  &none  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&none      &kp A      &kp S   &kp D   &kp F   &kp G   &none  &none  &none      &none  &none  &none  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&none      &kp Z      &kp X   &kp C   &kp V   &kp B                 &none      &none                &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &none
-&none      &kp GRAVE  &none   &none   &none           &none  &none  &none      &none  &none  &none          &none   &none      &kp LBKT  &kp RBKT  &none
+&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &none                                  &none  &kp N6             &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&none      &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                  &none  &kp LC(LA(LS(Y)))  &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&none      &kp A      &kp S   &kp D   &kp F   &kp G   &none  &none  &none      &none  &none  &none  &kp H              &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&none      &kp Z      &kp X   &kp C   &kp V   &kp B                 &none      &none                &kp N              &kp M   &kp COMMA  &kp DOT   &kp FSLH  &none
+&none      &kp GRAVE  &none   &none   &none           &none  &none  &none      &none  &none  &none                     &none   &none      &kp LBKT  &kp RBKT  &none
             >;
         };
     };
