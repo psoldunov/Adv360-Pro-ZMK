@@ -87,13 +87,13 @@
             >;
         };
 
-        layer_6 {
+        HYPR_MOD4 {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &none                                  &none  &kp N6             &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&none      &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                  &none  &kp LC(LA(LS(Y)))  &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&none      &kp A      &kp S   &kp D   &kp F   &kp G   &none  &none  &none      &none  &none  &none  &kp H              &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&none      &kp Z      &kp X   &kp C   &kp V   &kp B                 &none      &none                &kp N              &kp M   &kp COMMA  &kp DOT   &kp FSLH  &none
-&none      &kp GRAVE  &none   &none   &none           &none  &none  &none      &none  &none  &none                     &none   &none      &kp LBKT  &kp RBKT  &none
+&kp LC(LA(LS(EQUAL)))  &kp LC(LA(LS(N1)))     &kp LC(LA(LS(N2)))  &kp LC(LA(LS(N3)))  &kp LC(LA(LS(N4)))  &kp LC(LA(LS(N5)))  &none                                  &none  &kp LC(LA(LS(N6)))             &kp LC(LA(LS(N7)))  &kp LC(LA(LS(N8)))     &kp LC(LA(LS(N9)))    &kp LC(LA(LS(N0)))    &kp LC(LA(LS(MINUS)))
+&none                  &kp LC(LA(LS(Q)))      &kp LC(LA(LS(W)))   &kp LC(LA(LS(E)))   &kp LC(LA(LS(R)))   &kp LC(LA(LS(T)))   &none                                  &none  &kp LC(LA(LS(LS(Y))))  &kp LC(LA(LS(U)))   &kp LC(LA(LS(I)))      &kp LC(LA(LS(O)))     &kp LC(LA(LS(P)))     &kp LC(LA(LS(BSLH)))
+&none                  &kp LC(LA(LS(A)))      &kp LC(LA(LS(S)))   &kp LC(LA(LS(D)))   &kp LC(LA(LS(F)))   &kp LC(LA(LS(G)))   &none  &none  &none      &none  &none  &none  &kp LC(LA(LS(H)))              &kp LC(LA(LS(J)))   &kp LC(LA(LS(K)))      &kp LC(LA(LS(L)))     &kp LC(LA(LS(SEMI)))  &kp LC(LA(LS(SQT)))
+&none                  &kp LC(LA(LS(Z)))      &kp LC(LA(LS(X)))   &kp LC(LA(LS(C)))   &kp LC(LA(LS(V)))   &kp LC(LA(LS(B)))                 &none      &none                &kp LC(LA(LS(N)))   &kp LC(LA(LS(M)))   &kp LC(LA(LS(COMMA)))  &kp LC(LA(LS(DOT)))   &kp LC(LA(LS(FSLH)))  &none
+&none                  &kp LC(LA(LS(GRAVE)))  &none               &none               &none                           &none  &none  &none      &none  &none  &none                     &none               &none                  &kp LC(LA(LS(LBKT)))  &kp LC(LA(LS(RBKT)))  &none
             >;
         };
     };
