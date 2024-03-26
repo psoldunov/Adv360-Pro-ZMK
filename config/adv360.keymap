@@ -87,7 +87,18 @@
             >;
         };
 
-        layer_5 {
+layer_5 {
+    bindings = <
+LC(LA(EQUAL))  LC(LA(N1))   LC(LA(N2)) LC(LA(N3)) LC(LA(N4)) LC(LA(N5)) &none                                  &none  LC(LA(N6))     LC(LA(N7)) LC(LA(N8)) LC(LA(N9)) LC(LA(N0)) LC(LA(MINUS))
+&none           LC(LA(Q))    LC(LA(W))  LC(LA(E))  LC(LA(R))  LC(LA(T))  &none                                  &none  LC(LA(LC(LA(Y)))) LC(LA(U)) LC(LA(I))  LC(LA(O))  LC(LA(P))  LC(LA(BSLH))
+&none           LC(LA(A))    LC(LA(S))  LC(LA(D))  LC(LA(F))  LC(LA(G))  &none  &none  &none      &none  &none  &none  LC(LA(H))      LC(LA(J))  LC(LA(K))  LC(LA(L))  LC(LA(SEMI)) LC(LA(SQT))
+&none           LC(LA(Z))    LC(LA(X))  LC(LA(C))  LC(LA(V))  LC(LA(B))                 &none      &none                LC(LA(N))      LC(LA(M))  LC(LA(COMMA)) LC(LA(DOT)) LC(LA(FSLH)) &none
+&none           LC(LA(GRAVE))&none     &none     &none               &none  &none  &none      &none  &none  &none                 &none   &none      LC(LA(LBKT)) LC(LA(RBKT)) &none
+    >;
+};
+
+
+        layer_6 {
             bindings = <
 &kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &none                                  &none  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
 &none      &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                  &none  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
