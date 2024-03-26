@@ -87,15 +87,15 @@
             >;
         };
 
-layer_5 {
-    bindings = <
-LC(LA(EQUAL))  LC(LA(N1))   LC(LA(N2)) LC(LA(N3)) LC(LA(N4)) LC(LA(N5)) &none                                  &none  LC(LA(N6))     LC(LA(N7)) LC(LA(N8)) LC(LA(N9)) LC(LA(N0)) LC(LA(MINUS))
-&none           LC(LA(Q))    LC(LA(W))  LC(LA(E))  LC(LA(R))  LC(LA(T))  &none                                  &none  LC(LA(LC(LA(Y)))) LC(LA(U)) LC(LA(I))  LC(LA(O))  LC(LA(P))  LC(LA(BSLH))
-&none           LC(LA(A))    LC(LA(S))  LC(LA(D))  LC(LA(F))  LC(LA(G))  &none  &none  &none      &none  &none  &none  LC(LA(H))      LC(LA(J))  LC(LA(K))  LC(LA(L))  LC(LA(SEMI)) LC(LA(SQT))
-&none           LC(LA(Z))    LC(LA(X))  LC(LA(C))  LC(LA(V))  LC(LA(B))                 &none      &none                LC(LA(N))      LC(LA(M))  LC(LA(COMMA)) LC(LA(DOT)) LC(LA(FSLH)) &none
-&none           LC(LA(GRAVE))&none     &none     &none               &none  &none  &none      &none  &none  &none                 &none   &none      LC(LA(LBKT)) LC(LA(RBKT)) &none
-    >;
-};
+        layer_5 {
+            bindings = <
+&kp LC(LA(EQUAL))  &kp LC(LA(N1))     &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &none                                  &none  &kp LC(LA(N6))         &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))    &kp LC(LA(N0))    &kp LC(LA(MINUS))
+&none      &kp LC(LA(Q))      &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))   &none                                  &none  &kp LC(LA(Y))  &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))     &kp LC(LA(P))     &kp LC(LA(BSLH))
+&none      &kp LC(LA(A))      &kp LC(LA(S))   &kp LC(LA(D))   &kp LC(LA(F))   &kp LC(LA(G))   &none  &none  &none      &none  &none  &none  &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))     &kp LC(LA(SEMI))  &kp LC(LA(SQT))
+&none      &kp LC(LA(Z))      &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))                 &none      &none                &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))   &kp LC(LA(FSLH))  &none
+&none      &kp LC(LA(GRAVE))  &none   &none   &none           &none  &none  &none      &none  &none  &none                 &none   &none      &kp LC(LA(LBKT))  &kp LC(LA(RBKT))  &none
+            >;
+        };
 
 
         layer_6 {
